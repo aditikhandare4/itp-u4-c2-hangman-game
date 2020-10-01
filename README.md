@@ -34,7 +34,7 @@ _uncover_word('Python', '******', 'x')  # '******'  # Miss
 _uncover_word('Python', '*y****', 'x')  # '*y****'  # Miss
 ```
 
-### Get Random Word
+### Get H Word
 
 ```bash
 $ py.test tests.py -k get_random_word
@@ -43,7 +43,7 @@ $ py.test tests.py -k get_random_word
 Receives a list of words and returns one from the list randomly.
 
 
-### Guess Letter
+### Guess Letter C
 
 ```bash
 $ py.test tests.py -k guess
